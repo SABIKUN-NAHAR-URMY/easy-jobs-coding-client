@@ -13,7 +13,7 @@ export default function SubscriptionForm() {
       setAlertClass('alert-validate');
       return;
     }
-    fetch('http://localhost:5000/subscriberAll', {
+    fetch('https://codingtest-front-e-server.vercel.app/subscriberAll', {
       method: 'POST',
       headers: {
         'content-type': 'application/json'
